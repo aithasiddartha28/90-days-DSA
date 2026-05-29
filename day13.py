@@ -14,7 +14,7 @@ print(minimum)
 
 #Longest Substring Without Repeating Characters
 s="abcabcbb"
-'''left=0
+left=0
 seen=set()
 maximum=0
 for i in range(len(s)):
@@ -23,6 +23,4 @@ for i in range(len(s)):
         left+=1
     seen.add(s[i])
     maximum=max(maximum,i-left+1)
-print(maximum)'''
-for i in range(len(s)):
-    print(i)
+print(maximum)
