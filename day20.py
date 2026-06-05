@@ -1,4 +1,4 @@
-'''class Node:
+class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
@@ -81,7 +81,7 @@ sll.searchvalue(2)
 sll.deletebegin()
 sll.deleteend()
 sll.reverse()
-sll.traversal()'''
+sll.traversal()
 
 
 
