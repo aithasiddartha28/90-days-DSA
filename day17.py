@@ -82,5 +82,5 @@ sll.deletebegin()
 sll.deleteend()
 sll.deletevalue(20)
 sll.traversal()
-'''print(sll.length())
-print(sll.search(20))'''
+print(sll.length())
+print(sll.search(20))

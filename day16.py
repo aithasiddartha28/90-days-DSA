@@ -1,5 +1,5 @@
 #insert at beginning
-'''class Node:
+class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
@@ -14,10 +14,10 @@ first=new
 current=first
 while current:
     print(current.data)
-    current=current.next'''
+    current=current.next
     
 #insert at end
-'''class Node:
+class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
@@ -34,18 +34,6 @@ while current:
     print(current.data)
     count+=1
     current=current.next
-print(count)'''
-
-mass = 10
-asteroids = [3,9,19,5,21]
-a=sorted(asteroids)
-for i in a:
-    if mass >i:
-        mass+=i
-    else:
-        print("False")
-        break
-else:
-    print("True")
+print(count)
     
     

@@ -169,8 +169,13 @@ class DLL:
         temp=self.head
         while temp:
             if temp.data==data:
-                temp.prev.next=temp.next
-                temp.next.prev=temp.prev
+                if temp==self.head:
+                    self.dlldeletebegin()
+                elif temp==self.tail:
+                    self.dlldeletebegin()
+                else:
+                    temp.prev.next=temp.next
+                    temp.next.prev=temp.prev
                 return
             temp=temp.next
 dll=DLL()
