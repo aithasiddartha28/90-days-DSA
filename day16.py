@@ -35,5 +35,3 @@ while current:
     count+=1
     current=current.next
 print(count)
-    
-    
