@@ -1,4 +1,4 @@
-#deque usng array
+#Deque using array
 class deque:
     def __init__(self,size):
         self.deque=[None]*size

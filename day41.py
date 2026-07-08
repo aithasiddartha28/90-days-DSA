@@ -1,4 +1,4 @@
-'''#heap sort
+#heap sort
 import heapq
 nums=[10,4,7,2,15]
 heapq.heapify(nums)
@@ -76,7 +76,7 @@ print(element(n,0,len(n)-1,40))
 #sunset
 def backtrack(index):
     if index==len(nums):
-        ans'''
+        ans
         
 def numbers(n):
     if n==0:

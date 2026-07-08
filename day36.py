@@ -8,7 +8,7 @@ class Minheap:
         if len(self.heap)==0:
             return "heap is empty"
         if len(self.heap)==1:
-            return self.heap.opp()
+            return self.heap.pop()
         root=self.heap[0]
         self.heap[0]=self.heap.pop()
         self.heapifydown()
